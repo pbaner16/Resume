@@ -1,0 +1,173 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.5in,top=0.35in,right=0.5in,bottom=0.35in]{geometry} % Document margins
+\usepackage{multicol}
+
+\name{Poulomi Banerjee} % Your name
+\address{https://www.linkedin.com/in/poulomi-banerjee/}
+\address{https://github.com/pbaner16}
+\address{(408)~$\cdot$~797~$\cdot$~5509 \\ pbanerje@mail.sfsu.edu}
+% \address{Interested in Software Engineering Roles}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\begin{multicols}{2}
+
+{\bf San Francisco State University (SFSU)}\\
+August 2016 $-$ May 2020\\
+B.S. in Computer Science\\
+Minor in Mathematics
+
+{\bf Relevant Coursework}\\
+Data Structures, 
+Machine Structures,
+Programming Methodology,
+Analysis of Algorithms, 
+Discrete Math,
+Linear Algebra
+\columnbreak
+
+{\bf Professional Organizations}\\
+President of Association of Computing Machinery\\
+Co-founder of Lean In Chapter at SFSU\\
+Society of Women Engineers
+
+{\bf Awards}\\
+Rewriting the Code Fellow (2018-2020)\\
+WayUp's Top 100 Intern\\
+Abigail Fischbach Scholar\\
+Google Frontend Developer Challenge Scholar\\
+2017 Grace Hopper Conference Scholar
+
+\end{multicols}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{American Express}{June 2019-Present}{Software Engineering Intern}{New York City, NY}
+\item Implemented and architected an internal tool by using Node, React, PostreSQL and Springboot for frontend, databasing, and backend (respectively) as well as mastering other proprietary frameworks used within the company
+\item Actively practiced Agile methodologies by being Scrum master for daily standups
+\end{rSubsection}
+
+\begin{rSubsection}{Health Promotion and Wellness}{August 2018-Present}{Web Assistant}{San Francisco, CA}
+\item Built and updated the website and mobile app for the Health Promotion and Wellness department at SFSU by using Drupal and Guidebook software
+\end{rSubsection}
+
+\begin{rSubsection}{Mastercard}{June 2018 - August 2018}{Software Engineering Intern}{O'Fallon, MO}
+\item Built a website for a non-profit organization that Mastercard is partnering with by using Wordpress and CSS
+\item Built a Splunk data analytics dashboard to analyze billions of transactions within cardholders and merchants
+\item Worked on both UI/UX Development and Back-end Development to optimize certain products by using Angular and Java frameworks
+
+\end{rSubsection}
+\begin{rSubsection}{SFSU Metro College Success Program}{July 2017 - May 2018}{Math Tutor}{San Francisco, CA}
+\item Taught all math courses including Pre-Calculus, Calculus I, Calculus II, and Statistics
+\end{rSubsection}
+
+%------------------------------------------------
+
+% \begin{rSubsection}{ACM Mentee}{January 2017-Present}{Student}{San Francisco, CA}
+% \item A member of the ACM Mentor/Mentee Organization where I am assisted by a mentor in the same field I am pursuing
+% \end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{LinkedIn SF Lean In Chapter Conference/ Member of Lean In at SFSU}{February 2017}{Student}{San Francisco, CA}
+%\item Members collaborate and network with professionals in the industry at LinkedIn SF
+%\end{rSubsection}
+
+%-------------------------------------------------
+%\begin{rSubsection}{SF Hacks}{March 2017}{Student Hacker}{San Francisco, CA}
+%\item Developed a web application that searched and rated movies for a hackathon hosted by SFSU
+%\end{rSubsection}
+
+%--------------------------------------------------
+%\begin{rSubsection}{Google Software Engineering Q\&A Conference}{October 2016}{Student}{San Francisco, CA}
+%\item Participated in the software engineering Q\&A session at the Google campus in SF
+%\end{rSubsection}
+%---------------------------------------------------
+% \begin{rSubsection}{Member of Society of Women Engineers}{August 2016}{Student}{San Francisco, CA}
+% \item Collaborated with fellow students to work through the different ideas that we have in advancing in STEM
+% \end {rSubsection}
+%---------------------------------------------------
+% \begin{rSubsection}{Volunteer (note taking) to support disabled students}{August 2016}{Student Assistant}{San Francisco, CA}
+% \item Contributed to Special Needs Program at SFSU and advocated for their equal rights towards education
+% \end{rSubsection}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%   EVENTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Events}
+
+
+
+%\begin{rSubsection}{Google Intern Diversity Insider Night}{July 2017}{Student}{Mountain View, CA}
+%\item Participated in the software engineering Q\&A session at the Google campus in Mountain View
+%\end{rSubsection}
+
+\begin{rSubsection}{LinkedIn SF Lean In Chapter Conference/ Member of Lean In at SFSU}{February 2017}{Student}{San Francisco, CA}
+\item Collaborated and networked with professionals in the industry at LinkedIn SF
+\end{rSubsection}
+
+
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Java, C++, HTML, CSS, Angular, Node, React, PostgreSQL, Springboot, Splunk \\
+Spoken Languages & English, Bengali \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
